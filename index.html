@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+  <h1>Collect those Balls</h1>
+  <div class="collected">Balls Collected: <span>0</span></div>
+  <div class="game-over">
+    <h1> SUCCESS !</h1>
+    <button onclick="restartGame()"><b>Restart Game</b></button>
+  </div>
+
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+  <script src="js/app.js"></script>
+  <script src="js/util.js"></script>
+</body>
+
+</html>
